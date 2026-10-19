@@ -1,0 +1,25 @@
+# Raw data must NOT be committed (assignment rule) - it is fetched via ucimlrepo / shared on Google Drive
+data/
+*.csv
+*.xls
+*.xlsx
+*.zip
+
+# Trained artifacts live on Google Drive, not in Git
+models/
+*.joblib
+*.pkl
+*.keras
+*.h5
+
+# TensorBoard logs (stored on Google Drive)
+logs/
+tensorboard_logs/
+
+# Python / Jupyter / OS
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
