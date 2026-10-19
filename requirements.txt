@@ -1,0 +1,11 @@
+# Versions recorded in the notebook run (Google Colab)
+numpy==2.1.3
+pandas==2.2.3
+scikit-learn==1.6.1
+tensorflow==2.21.0
+# Not version-recorded in the notebook output; minimum versions only
+matplotlib>=3.8
+seaborn>=0.13
+joblib>=1.3
+ucimlrepo>=0.0.7
+jupyter
